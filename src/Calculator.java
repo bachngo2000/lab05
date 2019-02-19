@@ -152,7 +152,7 @@ public class Calculator
         	return calculateTwoTokens(tokens);
         case 3:
         	return calculateThreeTokens(tokens);
-        default:
+        default: //token.length of 4 or more
         	throw new CalculatorException("Illegal Token Length");
     }
        
