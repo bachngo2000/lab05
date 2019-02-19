@@ -100,7 +100,7 @@ public class Calculator
     		value = a/b;
     		return value;
     	}
-    	else  //if operation is not "+","-"
+    	else  //if operation is not "+","-", or "/"
     		
     		{ throw new CalculatorException("Illegal Command");
     	}    	
